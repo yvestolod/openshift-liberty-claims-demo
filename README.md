@@ -1,4 +1,4 @@
-# Introduction to Containerization
+# Sample Liberty Container that contains a RESTful API for use with a Claims Demo
 
 ## Table of Contents
 
@@ -39,13 +39,13 @@ We have not yet been able to configure `podman` to run inside a container.
 <a name="Prerequisites"> </a>
 ## Prerequisites
 
-- You have `podman` or `docker` installed.  Only `docker` is installed for this lab.
+- You have `docker` installed.  
 - You have access to the internet.
-- You have cloned this lab from github. If not, follows these steps:
+- You have cloned this repository from Github. If not, follows these steps:
 
 ```
-git clone https://github.com/IBM/openshift-workshop-was.git
-cd openshift-workshop-was/labs/Openshift/HelloContainer
+git clone https://github.com/yvestolod/openshift-liberty-claims-demo.git
+cd openshift-liberty-claims-demo
 ```
 
 <a name="What_is_Container"> </a>
